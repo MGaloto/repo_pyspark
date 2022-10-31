@@ -15,8 +15,6 @@ Todos los archivos y/o cambios que se generen se van a guardar en la carpeta loc
 
 
 ### Indice:
-<br>
-</br>
 
 
 - [**Pyspark**](https://github.com/MGaloto/repo_pyspark#pyspark)
@@ -24,30 +22,13 @@ Todos los archivos y/o cambios que se generen se van a guardar en la carpeta loc
 - [**Python**](https://github.com/MGaloto/repo_pyspark#python)
 
 
-
-
 ## Pyspark
-
-
-<div style="text-align: right" class="toc-box">
- <a href="#top">Volver al Inicio</a>
-</div>
-
-<br>
-</br>
 
 
 Los ejercicios del 1 al 5 se realizaron utilizando <b>pyspark</b>. El codigo se encuentra en la siguiente notebook: [pyspark_notebook](https://github.com/MGaloto/repo_pyspark/blob/main/pyspark/pyspark_session.ipynb)
 
 ## SQL
 
-
-<div style="text-align: right" class="toc-box">
- <a href="#top">Volver al Inicio</a>
-</div>
-
-<br>
-</br>
 
 
 Los ejercicios del 6 al 7 se realizaron utilizando <b>pyspark sql</b>. El codigo se encuentra en la siguiente notebook: [pyspark_notebook_sql](https://github.com/MGaloto/repo_pyspark/blob/main/pyspark/pyspark_session_sql.ipynb)
@@ -57,13 +38,15 @@ Los ejercicios del 6 al 7 se realizaron utilizando <b>pyspark sql</b>. El codigo
 ## Python
 
 
-<div style="text-align: right" class="toc-box">
- <a href="#top">Volver al Inicio</a>
-</div>
+
+Los ejercicios del 8 al 9 se realizaron utilizando <b>python</b>. El codigo se encuentra en los siguientes links: 
+* [python_notebook](https://github.com/MGaloto/repo_pyspark/blob/main/pyspark/python_date.ipynb)
+* [python_class](https://github.com/MGaloto/repo_pyspark/blob/main/pyspark/pythondate/date.py)
+
 
 <br>
 </br>
 
-Los ejercicios del 8 al 9 se realizaron utilizando <b>python</b>. El codigo se encuentra en los siguientes links: 
-* [python_notebook](https://github.com/MGaloto/repo_pyspark/blob/main/pyspark/pyspark_session_sql.ipynb)
-* [python_class](https://github.com/MGaloto/repo_pyspark/blob/main/pyspark/pythondate/date.py)
+<div style="text-align: right" class="toc-box">
+ <a href="#top">Volver al Inicio</a>
+</div>
