@@ -10,10 +10,10 @@
 <br>
 </br>
 
-- [**Introduccion**](https://github.com/MGaloto/Pokemon_App#introduccion)
-- [**Pyspark**](https://github.com/MGaloto/Pokemon_App#pyspark)
-- [**Python**](https://github.com/MGaloto/Pokemon_App#python)
-- [**SQL**](https://github.com/MGaloto/Pokemon_App#sql)
+- [**Introduccion**](https://github.com/MGaloto/repo_pyspark#introduccion)
+- [**Pyspark**](https://github.com/MGaloto/repo_pyspark#pyspark)
+- [**Python**](https://github.com/MGaloto/repo_pyspark#python)
+- [**SQL**](https://github.com/MGaloto/repo_pyspark#sql)
 
 
 ## Introduccion
