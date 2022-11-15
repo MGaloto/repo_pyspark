@@ -3,7 +3,7 @@
 
 # Pyspark, Python y SQL.
 
-Para ejectuar el código se utilizó una imagen de Docker que contiene las librerías necesarias para trabajar con Pyspark y una Jupyter Notebook. El archivo docker-compose.yml tiene las instrucciones necesarias para leer la imagen, utilizar el puerto 8888 para la jupyter notebook, nombrar la imagen y también el contenedor.
+Para ejectuar el código se utilizó una imagen de Docker que contiene las librerías para trabajar con Pyspark y Jupyter Notebook. El archivo docker-compose.yml tiene las instrucciones necesarias para leer la imagen y utilizar el puerto 8888 para la Notebook.
 
 El comando a ejecutar para construir la imagen y correr el contenedor es el siguiente:
 
@@ -11,42 +11,48 @@ El comando a ejecutar para construir la imagen y correr el contenedor es el sigu
 docker-compose up -d
 ```
 
-Todos los archivos y/o cambios que se generen se van a guardar en la carpeta local pyspark configurada en el docker-compose-yml.
+
+Todos los archivos y/o cambios que se generen se van a guardar en la carpeta local `pyspark` configurada en el docker-compose-yml.
 
 
-### Indice:
+### Estructura:
+
+``` shell
+.
+│   .gitignore
+│   docker-compose.yml
+│   Dockerfile
+│   jupyter_config.json
+│
+└───pyspark
+    │   pyspark_session.ipynb
+    │   pyspark_session_sql.ipynb
+    │   python_date.ipynb
+    │
+    ├───csvfiles
+    │       Person_CountryRegion.csv
+    │       Person_StateProvince.csv
+    │       Sales_CountryRegionCurrency.csv
+    │       Sales_Currency.csv
+    │       Sales_CurrencyRate.csv
+    │       Sales_SalesTaxRate.csv
+    │       visits.csv
+    │
+    ├───jsonfiles
+    │       MPE1004.json
+    │       Sellers.json
+    │
+    ├───pythondate
+            date.py
 
 
-- [**Pyspark**](https://github.com/MGaloto/repo_pyspark#pyspark)
-- [**SQL**](https://github.com/MGaloto/repo_pyspark#sql)
-- [**Python**](https://github.com/MGaloto/repo_pyspark#python)
 
+```
 
-## Pyspark
+En resumen:
 
-
-Los ejercicios del 1 al 5 se realizaron utilizando <b>pyspark</b>. El codigo se encuentra en la siguiente notebook: [pyspark_notebook](https://github.com/MGaloto/repo_pyspark/blob/main/pyspark/pyspark_session.ipynb)
-
-## SQL
-
-
-
-Los ejercicios del 6 al 7 se realizaron utilizando <b>pyspark sql</b>. El codigo se encuentra en la siguiente notebook: [pyspark_notebook_sql](https://github.com/MGaloto/repo_pyspark/blob/main/pyspark/pyspark_session_sql.ipynb)
-
-
-
-## Python
-
-
-
-Los ejercicios del 8 al 9 se realizaron utilizando <b>python</b>. El codigo se encuentra en los siguientes links: 
-* [python_notebook](https://github.com/MGaloto/repo_pyspark/blob/main/pyspark/python_date.ipynb)
-* [python_class](https://github.com/MGaloto/repo_pyspark/blob/main/pyspark/pythondate/date.py)
-
-
-<br>
-</br>
-
-<div style="text-align: right" class="toc-box">
- <a href="#top">Volver al Inicio</a>
-</div>
+- El archivo `.gitignore` no trackea documentos para el repositorio.
+- `jupyter_config.json` nos sirve para configurar la jupyter notebook.
+- Con `.docker-compose.yaml` y `Dockerfile` se construye la imagen para ejecutar Pyspark.
+- En la carpeta `jsonfiles` y `csvfiles` se encuentran los archivos que se van a leer.
+- En la carpeta `pyspark` estan las notebooks a ejecutar.
