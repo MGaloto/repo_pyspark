@@ -3,7 +3,7 @@ version: "3.10"
 services:
   pyspark:
   #image: jupyter/pyspark-notebook:spark-3.3.1
-    container_name: 'pyspark_container_331'
+    container_name: 'pyspark_container'
     image: 'pyspark_image'
     stdin_open: true # docker run -i
     tty: true        # docker run -t
@@ -13,4 +13,5 @@ services:
     ports:
       - "8888:8888"
     volumes:
-      - ./pyspark:/home/jovyan/work
+      - ./pyspark:/work
+    command: start-notebook.sh --NotebookApp.token=''
